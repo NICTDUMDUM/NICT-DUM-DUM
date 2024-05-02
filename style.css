@@ -1,0 +1,20 @@
+h4{ 
+    font-size: 20px;
+}
+H2{
+        0% { color: red; }
+        14% { color: orange; }
+        28% { color: yellow; }
+        42% { color: green; }
+        56% { color: blue; }
+        70% { color: indigo; }
+        84% { color: violet; }
+        font-size: 48px;
+        font-weight: bold;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow 7s infinite;
+      
+}
